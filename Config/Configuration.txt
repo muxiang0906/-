@@ -1,0 +1,87 @@
+[端口配置]
+行程 = 1    
+油压1 = 2    
+油压2 = 3    
+电气 = 4    
+
+[实验已完成]
+快关L1L2 = "否"
+快关L1 = "否"
+快关L2 = "否"
+步响应1 = "否"
+归零 = "否"
+开启关闭 = "否"
+
+[快关L1L2]
+XscaleMax = 2200
+XscaleMin = 0
+YscaleMax = 20
+YscaleMin = 0
+NbOfSamplesPerChannel = 100
+SampleRate = 5000
+SamplingTime_State = 1
+SamplingTime_Value = 3
+
+[快关L1]
+XscaleMax = 2200
+XscaleMin = 0
+YscaleMax = 20
+YscaleMin = 0
+NbOfSamplesPerChannel = 100
+SampleRate = 5000
+SamplingTime_State = 1
+SamplingTime_Value = 3
+
+[快关L2]
+XscaleMax = 2200
+XscaleMin = 0
+YscaleMax = 20
+YscaleMin = 0
+NbOfSamplesPerChannel = 100
+SampleRate = 5000
+SamplingTime_State = 1
+SamplingTime_Value = 3
+
+[步响应1]
+XscaleMax = 1200
+XscaleMin = 0
+YscaleMax = 20
+YscaleMin = 0
+NbOfSamplesPerChannel = 50
+SampleRate = 5000
+SamplingTime_State = 1
+SamplingTime_Value = 20
+
+[归零]
+XscaleMax = 1000
+XscaleMin = 0
+YscaleMax = 20
+YscaleMin = 0
+NbOfSamplesPerChannel = 100
+SampleRate = 5000
+SamplingTime_State = 0
+SamplingTime_Value = 0
+
+[开启关闭]
+XscaleMax = 2200
+XscaleMin = 0
+YscaleMax = 20
+YscaleMin = 0
+NbOfSamplesPerChannel = 100
+SampleRate = 5000
+SamplingTime_State = 0
+SamplingTime_Value = 0
+PMin=0
+PMax=50
+
+[油压]
+XscaleMax = 2200
+XscaleMin = 0
+YscaleMax = 20
+YscaleMin = 0
+NbOfSamplesPerChannel = 100
+SampleRate = 5000
+SamplingTime_State = 0
+SamplingTime_Value = 0
+PMin=0
+PMax=50

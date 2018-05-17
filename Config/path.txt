@@ -1,0 +1,5 @@
+[实验目录路径]
+path = "D:\实验文件夹"
+
+[回收站路径]
+path = "E:\05_程序\SourceFiles\Recycled"

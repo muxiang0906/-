@@ -1,0 +1,18 @@
+md "E:\05_程序\SourceFiles\Recycled\196"
+#删除油动机
+if E:\05_程序\SourceFiles\Recycled\196 not a path
+	md E:\05_程序\SourceFiles\Recycled\196
+move "E:\05_程序\SourceFiles\实验文件夹\196\GV-9" "E:\05_程序\SourceFiles\Recycled\196\GV-9" 
+
+#还原油动机
+if E:\05_程序\SourceFiles\实验文件夹\196 not a path
+	md E:\05_程序\SourceFiles\Recycled\196
+move "E:\05_程序\SourceFiles\Recycled\196\GV-9" "E:\05_程序\SourceFiles\实验文件夹\196\GV-9" 
+
+#删除项目
+move "E:\05_程序\SourceFiles\实验文件夹\196" "E:\05_程序\SourceFiles\Recycled\196" 
+#还原项目
+move "E:\05_程序\SourceFiles\Recycled\196" "E:\05_程序\SourceFiles\实验文件夹\196" 
+
+#重命名
+move "C:\Users\Xiang MU\Desktop\实验文件夹\项目1" "C:\Users\Xiang MU\Desktop\实验文件夹\196-8" 
